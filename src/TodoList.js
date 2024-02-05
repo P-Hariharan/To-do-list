@@ -50,7 +50,7 @@ const TodoList = () => {
 
     return (
         <div className="TodoList">
-            <h1>Simple React Todo List</h1>
+            <h1>Todo List</h1>
             <NewTodoForm createTodo={create} />
             <ul>{todosList}</ul>
         </div>

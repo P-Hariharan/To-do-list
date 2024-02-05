@@ -24,7 +24,7 @@
     display: block;
     width: 0%;
     height: 2px;
-    background: #fff;
+    background: greenyellow;
     animation: strikeitem 0.5s ease-out 0s forwards;
   }
   
@@ -44,7 +44,6 @@
     font-size: 1em;
     margin: 0.4em;
     background: none;
-    -webkit-appearance: none;
     cursor: pointer;
     color: #fff;
   }
@@ -63,7 +62,7 @@
   .Todo-edit-form input {
     flex-grow: 1;
     border: none;
-    background: #f7f1f1;
+    background: white;
     padding: 0 1.5em;
     font-size: initial;
   }
